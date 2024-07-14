@@ -78,19 +78,19 @@ toolbar {
 }
 
 #nav-bar {
-  position: fixed !important;
-  bottom: -1rem;
-  left: 25%;
-  right: 25%;
-
-  z-index: 1 !important;
-  transition: bottom 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280),
-    opacity 0.1s ease !important;
-  border-top: none !important;
-  border-radius: 10px !important;
-  border: 1px solid var(--tab-selected-bgcolor) !important;
-  background: var(--lwt-accent-color) !important;
-  opacity: 0; /* Initially hidden */
+	position: fixed !important;
+	bottom: -1rem;
+	left: 25%;
+	right: 25%;
+	z-index: 1 !important;
+	transition: bottom 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), opacity 0.1s ease !important;
+	border-bottom: none !important;
+	border-radius: 10px 10px 0px 0px !important;
+	border-left: 1px solid #606060 !important;
+	background: var(--lwt-accent-color) !important;
+	opacity: 0;
+	border-right: 1px solid #606060 !important;
+	border-top: 1px solid #606060 !important;
 }
 
 #nav-bar:hover, #nav-bar:focus-within {
